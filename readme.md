@@ -7,5 +7,5 @@
 4. (Optional) SaveStations.py downloads all the necessary files (except StationName.json) that are needed to run the programm. If any files are missing or script is showing error please run this script first and wait till it stops. Then run 'CheckTicket.py'
 
 ### How it works:
-Instantiating the class with required arguments gets the data from API and stores it in json formate. 
+Instantiating the class with required arguments retrieves data from the API and stores it in json formate. 
 get_info() method formats and prints it in a nice way.
