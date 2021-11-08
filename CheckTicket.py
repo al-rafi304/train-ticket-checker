@@ -124,10 +124,10 @@ class Ticket:
 # Diver Code
 if __name__ == '__main__':
 
-    departure       = input("From: ")
-    arrival         = input("To: ")
-    departure_date  = input("Date (DD-MM-YY): ")
-    seats           = input("Seats: ")
+    departure       = input("From: ").strip()
+    arrival         = input("To: ").strip()
+    departure_date  = input("Date (DD-MM-YY): ").strip()
+    seats           = input("Seats: ").strip()
 
     ticket = Ticket(departure_date, departure, arrival, seats)
     trains = ticket.get_info()
